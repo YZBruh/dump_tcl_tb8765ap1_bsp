@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/unknown/phhgsi_a64_ab
+DEVICE_PATH := device/tcl/tb8765ap1_bsp
 
 # Architecture
 TARGET_ARCH := arm
@@ -38,8 +38,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := phhgsi_a64_ab_defconfig
-TARGET_KERNEL_SOURCE := kernel/unknown/phhgsi_a64_ab
+TARGET_KERNEL_CONFIG := tb8765ap1_bsp
+TARGET_KERNEL_SOURCE := kernel/tcl/tb8765ap1_bsp
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -68,7 +68,6 @@ TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt8765
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_USERIMAGES_USE_EXT4 := true
-TARGET_USERIMAGES_USE_F2FS := true
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
@@ -77,4 +76,4 @@ VENDOR_SECURITY_PATCH := 2021-08-01
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-include vendor/unknown/phhgsi_a64_ab/BoardConfigVendor.mk
+include vendor/tcl/tb8765ap1_bsp/BoardConfigVendor.mk
