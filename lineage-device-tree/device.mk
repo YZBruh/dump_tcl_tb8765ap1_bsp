@@ -51,4 +51,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/unknown/phhgsi_a64_ab/phhgsi_a64_ab-vendor.mk)
+$(call inherit-product, vendor/tcl/tb8765ap1_bsp/tb8765ap1_bsp-vendor.mk)
