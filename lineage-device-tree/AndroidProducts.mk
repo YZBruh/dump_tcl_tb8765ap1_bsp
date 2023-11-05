@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_phhgsi_a64_ab.mk
+    $(LOCAL_DIR)/lineage_tb8765ap1_bsp.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_phhgsi_a64_ab-user \
-    lineage_phhgsi_a64_ab-userdebug \
-    lineage_phhgsi_a64_ab-eng
+    lineage_tb8765ap1_bsp-user \
+    lineage_tb8765ap1_bsp-userdebug \
+    lineage_tb8765ap1_bsp-eng
