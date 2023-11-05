@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=phhgsi_a64_ab
-VENDOR=unknown
+DEVICE=tb8765ap1_bsp
+VENDOR=tcl
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
