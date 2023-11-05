@@ -1,4 +1,4 @@
-# Unpinned blobs from treble_a64_bvN-userdebug 11 RD2A.211001.002 eng.mohan.20211014.190242 test-keys
+# Unpinned blobs from full_A3A_10_4G-user 9 PPR1.180610.011 vL43 release-keys
 
 # Audio
 vendor/bin/hw/android.hardware.audio@4.0-service-mediatek
