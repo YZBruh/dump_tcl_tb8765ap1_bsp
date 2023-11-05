@@ -1,4 +1,4 @@
-# Android device tree for Phh Phh-Treble vanilla (phhgsi_a64_ab)
+# Android device tree for TCL 8088X [tb8765ap1_bsp]
 
 ```
 #
@@ -7,3 +7,5 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 ```
+
+## Edited!!! Stock instead of GSI information.
