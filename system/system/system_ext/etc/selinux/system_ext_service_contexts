@@ -1,0 +1,23 @@
+#line 1 "device/phh/treble/sepolicy/service_contexts"
+qti.ims.ext                                          u:object_r:radio_service:s0
+# SPRD IMS
+ims_ex                                               u:object_r:radio_service:s0
+ims_ut_ex                                            u:object_r:radio_service:s0
+ims_doze_manager                                     u:object_r:radio_service:s0
+irit                                                 u:object_r:radio_service:s0
+
+# MTK IMS
+mwis                                    u:object_r:radio_service:s0
+mtkIms                                    u:object_r:radio_service:s0
+#line 1 "device/dot/sepolicy/common/private/service_contexts"
+lineageaudio                              u:object_r:lineage_audio_service:s0
+lineagehardware                           u:object_r:lineage_hardware_service:s0
+lineagelivedisplay                        u:object_r:lineage_livedisplay_service:s0
+lineageperformance                        u:object_r:lineage_performance_service:s0
+lineagetrust                              u:object_r:lineage_trust_service:s0
+lineageweather                            u:object_r:lineage_weather_service:s0
+profile                                   u:object_r:lineage_profile_service:s0
+
+adbroot_service                           u:object_r:adbroot_service:s0
+pocket                                    u:object_r:pocket_service:s0
+applock					                  u:object_r:applock_service:s0

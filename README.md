@@ -1,0 +1,20 @@
+## treble_a64_bvN-userdebug 11 RD2A.211001.002 eng.mohan.20211014.190242 test-keys
+- Manufacturer: tcl
+- Platform: mt6739
+- Codename: tb8765ap1_bsp
+- Brand: TCL
+- Flavor: treble_a64_bvN-userdebug
+- Release Version: 11
+- Kernel Version: 4.4.146
+- Id: RD2A.211001.002
+- Incremental: eng.mohan.20211014.190242
+- Tags: test-keys
+- CPU Abilist: armeabi-v7a,armeabi
+- A/B Device: false
+- Treble Device: true
+- Locale: en-US
+- Screen Density: undefined
+- Fingerprint: Phh/treble_a64_bvN/phhgsi_a64_ab:11/RD2A.211001.002/mohan10141902:userdebug/test-keys
+- OTA version: 
+- Branch: treble_a64_bvN-userdebug-11-RD2A.211001.002-eng.mohan.20211014.190242-test-keys
+- Repo: tcl_tb8765ap1_bsp_dump
