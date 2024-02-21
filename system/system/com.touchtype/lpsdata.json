@@ -1,0 +1,24 @@
+[ {
+  "name" : "English (US)",
+  "language" : "en",
+  "country" : "US",
+  "sha1" : "827da16af26f1ef151204320cb9f8aa9843808a2",
+  "version" : 119,
+  "archive" : "file:///system/com.touchtype/en_US.zip"
+}, {
+  "name" : "हिन्दी",
+  "language" : "hi",
+  "country" : "IN",
+  "sha1" : "a24bbda6ace71c104845c5f4001039345b011e1f",
+  "version" : 126,
+  "beta" : "true",
+  "archive" : "file:///system/com.touchtype/hi_IN.zip"
+}, {
+  "name" : "Hinglish",
+  "language" : "hg",
+  "country" : "IN",
+  "sha1" : "9df07bc9130ab819580ca8d1061c22c91c0269c7",
+  "version" : 103,
+  "beta" : "true",
+  "archive" : "file:///system/com.touchtype/hg_IN.zip"
+} ]
